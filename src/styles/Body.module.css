@@ -1,0 +1,56 @@
+.bodyContainer {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 80px 40px;
+
+  background-color: #282d35;
+  position: relative;
+  z-index: 1;
+}
+
+svg {
+  fill: #33373e;
+  position: absolute;
+  z-index: -1;
+  width: 500px;
+  height: 500px;
+  right: -10%;
+}
+
+h1 {
+  font-size: 39px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: -0.05em;
+}
+
+li {
+  padding-bottom: 20px;
+  position: relative;
+  list-style-type: none;
+}
+
+li::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: -30px;
+  background: url(../assets/Ellipse.svg);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+/* li::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
+} */
+
+/* ul li::before {
+  position: absolute;
+  background-image: url("../assets/Ellipse.svg");
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+} */

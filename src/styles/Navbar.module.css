@@ -1,0 +1,30 @@
+.wrapper {
+  background-color: #21222a;
+}
+
+.navContainer {
+  max-width: 1200px;
+  margin-inline: auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #61dafb;
+}
+
+.logo p {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #deebf8;
+}
