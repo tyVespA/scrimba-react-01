@@ -2,7 +2,7 @@ import React from "react";
 import ReactLogo from "../assets/react.svg";
 import s from "../styles/Body.module.css";
 
-function Body() {
+export function Body() {
   return (
     <div className={s.bodyContainer}>
       <svg
@@ -29,5 +29,3 @@ function Body() {
     </div>
   );
 }
-
-export default Body;

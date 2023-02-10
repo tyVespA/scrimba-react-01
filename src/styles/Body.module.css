@@ -35,22 +35,8 @@ li::before {
   position: absolute;
   top: 3px;
   left: -30px;
-  background: url(../assets/Ellipse.svg);
+  background-image: url(../assets/Ellipse.svg);
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
 }
-
-/* li::marker {
-  color: #61dafb;
-  font-size: 1.4rem;
-} */
-
-/* ul li::before {
-  position: absolute;
-  background-image: url("../assets/Ellipse.svg");
-  width: 20px;
-  height: 20px;
-  top: 0;
-  left: 0;
-} */

@@ -2,7 +2,7 @@ import React from "react";
 import s from "../styles/Navbar.module.css";
 import Logo from "../assets/react.svg";
 
-function Navbar() {
+export function Navbar() {
   return (
     <div className={s.wrapper}>
       <nav className={s.navContainer}>
@@ -15,5 +15,3 @@ function Navbar() {
     </div>
   );
 }
-
-export default Navbar;
